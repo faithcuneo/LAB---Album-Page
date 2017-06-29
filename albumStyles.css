@@ -1,0 +1,22 @@
+body {
+    background-image: url(images/Background.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+
+caption {
+    font-size: 45px;
+    font-weight: bolder
+}
+th {
+    font-size:30px;
+    font-weight: bold
+}
+
+td {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold
+}
