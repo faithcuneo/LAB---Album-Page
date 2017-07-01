@@ -8,15 +8,38 @@ body {
 
 caption {
     font-size: 45px;
-    font-weight: bolder
+    font-weight: bolder;
 }
-th {
+thead th {
     font-size:30px;
-    font-weight: bold
+    font-weight: bold;
+    background-color: lightgrey;
 }
 
-td {
+tbody td {
     text-align: center;
     font-size: 25px;
-    font-weight: bold
+    font-style: italic;
+    background-color: whitesmoke;
 }
+.backimage {           
+    background-image: url('images/AWNalbumcover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px,100px;
+    height: 200px;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: greenyellow;
+}
+a:active{
+    text-decoration: none;
+}
+
