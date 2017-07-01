@@ -9,18 +9,26 @@ body {
 caption {
     font-size: 45px;
     font-weight: bolder;
+    text-align: center;
 }
 thead th {
     font-size:30px;
     font-weight: bold;
     background-color: lightgrey;
+    text-align: center;
 }
 
 tbody td {
     text-align: center;
     font-size: 25px;
     font-style: italic;
-    background-color: whitesmoke;
+}
+tbody tr:nth-child(even) {
+  background-color:lightgray;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
 }
 .backimage {           
     background-image: url('images/AWNalbumcover.jpg');
